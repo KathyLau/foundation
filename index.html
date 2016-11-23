@@ -12,13 +12,13 @@
   </head>
   <body>
 
-<!--
-        TOP NAVIATION BAR
-
-      -->
+<!--     -->
+<!--TOP NAVIGATION BAR -->
+<!--     -->
 
     <div class="top-bar">
-  <div class="top-bar-right">
+      <div class="top-bar-right">
+	<!--Dropdowns start on the nav bar are on the right-->
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">Home</li>
       <li>
@@ -45,26 +45,34 @@
 
 </div>
 
-<!--
-        Title
+<!--     -->
+<!--Title-->
+<!--     -->
 
-      -->
-
-    <div class="row">
+<div class="row">
+  </div>
       <div class="large-12 columns">
           <center>
-        <h1>Welcome to the Foundation</h1>
+            <h1>Welcome to the Foundation</h1>
+	    <h1>This Title's color was powered by app.css</h1>
+	    <!-- USE app.css to overwrite the css provided by foundations-->
       </div>
     </div>
 
-    <!--
-            12 Col Grid
+    <!--     -->
+    <!--12 Col Grid-->
+    <!--     -->
 
-          -->
     <div class="row">
-      <div class="large-12 medium-12 columns">  <center>
-              <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+      <div class="large-12 medium-8 small-2 columns">  <center>
+          <h5>Here&rsquo;s your basic grid:</h5>
+	  <h5>12 is a magical number</h5>
+	  <h5>Most surfaces in foundations are broken into 12 bits</h5>
+	  <h5>Look at this on your phone, I dare you</h5>
+	  <!--The large tag is for large screens, medium=tablets, small=phone-->
+	  <!--This allows you to have differentlly taileroed sites for mobile-->
+
+	  <!-- Grid Example -->
       </center>
         <div class="row">
           <div class="large-12 columns">
@@ -119,6 +127,21 @@
         </div>
 
 
+	<div class="row">
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="primary callout">
+              <p>1st precednce</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 columns">
+            <div class="primary callout">
+              <p>2nd Precednce, 3rd would be in the middle</p>
+            </div>
+          </div>
+        </div>
+
+
+
 
         <hr/>
 
@@ -159,6 +182,7 @@
             </div>
 
             <div class="small-4 columns">
+	      <!--if large isn't present, small oevrwrites-->
               Rate this class
               <div class="slider" data-slider data-initial-start="50">
                 <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
